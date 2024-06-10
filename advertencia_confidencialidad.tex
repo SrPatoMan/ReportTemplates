@@ -9,22 +9,27 @@
 \usepackage{helvet} 
 \renewcommand{\familydefault}{\sfdefault}
 
-\definecolor{color_recuadro}{HTML}{FF6145}
+% CHANGE THIS
+\newcommand{\FechaDocumento}{10 Junio 2024}
 
 \begin{document}
-    
+
     \begin{figure}
         \centering
         \null\par\vspace{2cm}
         \includegraphics[width=0.6\textwidth,height=10cm,keepaspectratio]{caution.png}
     \end{figure}
-
+    
     \null\par\vspace{2cm}
-    \begin{center}
-        \begin{tcolorbox}[colback=red!5!white, colframe=color_recuadro]
+    \begin{center} 
+        \begin{tcolorbox}[colback=red!5!white, colframe=red!90!black]
+            \centering
             \Large Este documento es confidencial y contiene informacion sensible, no debe ser impreso o compartido con terceras entidades 
             
         \end{tcolorbox}
+        
+        \par\vspace{0.7cm}
+        \large \FechaDocumento
     \end{center}
 
 \end{document}

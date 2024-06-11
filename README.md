@@ -1,2 +1,2 @@
 # ReportTemplates
-LaTeX templates to do a professional pentest report.
+LaTeX templates to do a professional pentesting report.
